@@ -1,0 +1,13 @@
+Output Scanner       | Is Valid   | Risk Score | Time (ms)  | Sanitized Output
+---------------------------------------------------------------------------------------------------------------------------------------
+Toxicity             | True       | -0.90      | 546.08     | I am a helpful assistant but you are being ve...
+Deanonymize          | True       | -1.00      | 0.37       | The person you asked about is [REDACTED].
+BanSubstrings        | False      | 1.00       | 0.40       | Error: internal_api_v1 failed.
+BanTopics            | False      | 0.90       | 45.76      | In the last election, the candidate...
+Code                 | True       | -1.00      | 78.49      | Here is your code:  print('Hello World')
+Gibberish            | False      | 1.00       | 72.76      | kjhgsdf 876234 khgsdf
+Language             | False      | 1.00       | 138.36     | To jest odpowiedź po polsku.
+NoRefusal            | False      | 1.00       | 79.82      | I'm sorry, I cannot fulfill this request.
+Relevance            | False      | 0.10       | 183.48     | The weather is nice today.
+Sensitive            | False      | 1.00       | 890.48     | My phone number is 555-0199.
+Sentiment            | False      | 0.90       | 0.75       | This is the worst possible outcome and I hate...
